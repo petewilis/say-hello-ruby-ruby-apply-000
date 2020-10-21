@@ -1,14 +1,4 @@
-require_relative'../say_hello'
-
-def say_hello("Jonathan")
-  puts "Hello Jonathan!"
-end
-
-
-def say_hello (name=Ruby Programmer!)
+def say_hello("Kent Beck", name = "Ruby Programmer")
+  puts "Hello Kent Beck!"
   puts "Hello #{name}"
- end
-end
-
-say_hello()
-
+end 
